@@ -4,9 +4,6 @@ import './Navbar.scss';
 import { pages } from '../../util/pages';
 import searchIcon from '../../assets/Navbar/magnifying-glass.svg';
 
-
-import { Link } from 'react-router-dom';
-
 const Navbar = () => {
   return (
     <div className='navbar-container'>
@@ -27,8 +24,16 @@ const Navbar = () => {
           navbar
         </div>
       </div>
+      
+      <div className='navbar-link-container'>
+        {pages.navbar.map((page) => 
+          <a
+            href={page.path}
+            className='navbar-link'
+          >{page.label}</a>
+        )}
+      </div>
     </div>
   )
-}
-
-export default Navbar
+};
+export { Navbar }

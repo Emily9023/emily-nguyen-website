@@ -1,6 +1,7 @@
 
 .navbar-container {
   height: 60px;
+  display: block;
 }
 
 .navbar-wrapper {
@@ -52,3 +53,30 @@
   font-size: 50px;
 
 }
+
+// LINKS
+.navbar-link-container {
+  padding: 10px 20px;
+  display: flex ;
+  justify-content: center;
+
+}
+
+.navbar-link {
+  padding: 5px;
+  display: inline-block;
+
+
+
+}
+
+.underline-page-selected {
+  width: 20px;
+
+}
+
+.navbar-underline {
+  width: 20px;
+
+}
+
