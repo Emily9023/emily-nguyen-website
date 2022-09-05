@@ -1,6 +1,7 @@
 import { Page404 } from '../pages/404/404';
 import { Home } from '../pages/Home/Home';
 import { About } from '../pages/About/About.jsx';
+import { Experience } from '../pages/Experience/Experience.jsx';
 
 export const pages = {
   page404: {
@@ -21,9 +22,9 @@ export const pages = {
       includeFooter: true,
     },
     {
-      label: 'resume',
-      // component: <Home />,
-      path: '/resume',
+      label: 'Experience',
+      component: <Experience />,
+      path: '/experience',
       includeFooter: true,
     },
   ],
