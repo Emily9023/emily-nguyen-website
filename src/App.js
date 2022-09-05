@@ -20,7 +20,6 @@ function App() {
   }
   return (
     <>
-      {console.log(component)}
       <Navbar/>
       <div style={{ float: 'left' }}>
         {component}
