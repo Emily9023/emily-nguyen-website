@@ -14,6 +14,13 @@ function App() {
         }
       });
       break;
+    case "/experience":
+      pages.navbar.forEach(page => {
+        if (page.path == path) {
+          component = page.component
+        }
+      });
+    break;
     default:
       component = pages.page404.component
       break;
