@@ -21,21 +21,18 @@ export const experienceContent = {
           gain experience effectively communicating to accommodate a variety of different people. 
           In addition, I gained experience working with a team to identify and minimize hazards 
           within the environment through creative problem solving and critical thinking.</p>,
-      positions: {
-        "Sports and Recreation Supervisor": {
-          startDate: "temp",
-          endDate: "Current",
-          description: [
-            "",
-            
-          ],
-        },
-        "Lifeguard and Swimming Instructor": {
+      positions: [
+        { title: "Sports and Recreation Supervisor",
           startDate: "temp",
           endDate: "temp",
-          description: "",
+          description: [],
         },
-      },
+        { title: "Lifeguard and Swimming Instructor",
+          startDate: "temp",
+          endDate: "temp1",
+          description: [],
+        },
+      ],
       path: "/",
     },
   ],

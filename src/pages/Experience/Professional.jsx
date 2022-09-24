@@ -1,11 +1,11 @@
 import { React } from 'react';
 // import './Professional.scss';
+import { experienceContent } from '../../util/Experience/experienceContent';
+import { ExperienceDisplay } from '../../components/experiences/experienceDisplay/experienceDisplay.jsx';
 
 const Professional = () => {
   return (
-    <div className="">
-      yes
-    </div>
+    <ExperienceDisplay positions={experienceContent.professional}></ExperienceDisplay>
   );
 };
 
