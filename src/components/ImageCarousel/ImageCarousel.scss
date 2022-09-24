@@ -1,0 +1,49 @@
+@import '../../scssStyles/mixins.scss';
+
+.carousel .slide {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-slide {
+  background-color: var(--sponsor-background);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 55px;
+  cursor: pointer;
+  height: calc(320px - 50px);
+  @include devices(tablet) {
+    width: 80%;
+    margin-bottom: 40px;
+    height: calc(260px - 50px);
+  }
+
+  filter: drop-shadow(5px 5px 10px #23232342);
+  object-fit: contain;
+}
+
+.control-dots {
+  .dot {
+    background: var(--control-dot) !important;
+    box-shadow: unset !important;
+    width: 40px !important;
+    height: 6px !important;
+    margin: 0 0px !important;
+    border-radius: 0 !important;
+    @include devices(tablet) {
+      width: 20px !important;
+      height: 5px !important;
+    }
+  }
+}
+
+.carousel-link {
+  background: none;
+  display: block;
+  transition: transform 300ms;
+}
+
+.carousel-link:hover {
+  transform: scale(1.05);
+  transition: transform 300ms;
+}

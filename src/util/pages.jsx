@@ -2,6 +2,7 @@ import { Page404 } from '../pages/404/404';
 import { Home } from '../pages/Home/Home';
 import { About } from '../pages/About/About.jsx';
 import { Experience } from '../pages/Experience/Experience.jsx';
+import { Portfolio } from '../pages/Portfolio/Portfolio.jsx';
 
 export const pages = {
   page404: {
@@ -17,7 +18,7 @@ export const pages = {
     },
     {
       label: 'About',
-      // component: <Home />,
+      component: <About />,
       path: '/about',
       includeFooter: true,
     },
@@ -25,6 +26,12 @@ export const pages = {
       label: 'Experience',
       component: <Experience />,
       path: '/experience',
+      includeFooter: true,
+    },
+    {
+      label: 'Portfolio',
+      component: <Portfolio />,
+      path: '/portfolio',
       includeFooter: true,
     },
   ],

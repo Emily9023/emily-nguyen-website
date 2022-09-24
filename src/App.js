@@ -14,7 +14,21 @@ function App() {
         }
       });
       break;
+    case "/about":
+      pages.navbar.forEach(page => {
+        if (page.path == path) {
+          component = page.component
+        }
+      });
+    break;
     case "/experience":
+      pages.navbar.forEach(page => {
+        if (page.path == path) {
+          component = page.component
+        }
+      });
+    break;
+    case "/portfolio":
       pages.navbar.forEach(page => {
         if (page.path == path) {
           component = page.component
@@ -28,7 +42,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <div style={{ float: 'left' }}>
+      <div >
         {component}
       </div>
     </>
