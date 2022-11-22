@@ -23,12 +23,12 @@ const ExperienceDisplay = ({ positions }) => {
           }}
         /> */}
         
-        <div className="extracurriculars-container">
+        <div className="experience-display-container">
           {positions.map((content) => {
             return (
               <div 
                 className={
-                  "extracurriculars-experience-container " +
+                  "experience-display-container " +
                   'position-container ' +
                   (content.description ? ' position-container-clickable' : '')
                 }

@@ -18,7 +18,7 @@ const Experience = ({ dates, onClick }) => {
               // }}
             >
               <div className="extracurriculars-container">
-                <div className="extracurriculars-experience-container">
+                <div className="experience-display-container">
                   <div className='extracurriculars-experience-image-container'>
                     <img src={content.img} alt={content.altImage}></img>
                   </div>

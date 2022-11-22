@@ -2,6 +2,7 @@ import { React } from 'react';
 import { Tabs } from '../../components/Tabs/tabs';
 import { Professional } from './Professional';
 import { Extraccuriculars } from './Extraccuriculars';
+import { Projects } from './Projects';
 import './Experience.scss';
 
 const Experience = () => {
@@ -14,10 +15,10 @@ const Experience = () => {
       title: 'Extraccuriculars',
       component: <Extraccuriculars />,
     },
-    // {
-    //   title: 'Projects',
-    //   component: <></>,
-    // },
+    {
+      title: 'Projects',
+      component: <Projects/>,
+    },
     // {
     //   title: 'Skills',
     //   component: <></>,
