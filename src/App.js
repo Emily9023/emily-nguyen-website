@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <div >
+      <div className='App-container-main'>
         {component}
       </div>
     </>

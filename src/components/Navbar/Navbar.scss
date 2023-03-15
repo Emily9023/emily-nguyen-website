@@ -59,8 +59,11 @@
   display: flex ;
   justify-content: center;
   text-transform: uppercase;
-  text-decoration: none;
   color: #000;
+}
+
+.navbar-container a {
+  text-decoration: none;
 }
 
 
