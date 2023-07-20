@@ -15,10 +15,10 @@ const Experience = () => {
       title: 'Extraccuriculars',
       component: <Extraccuriculars />,
     },
-    {
-      title: 'Projects',
-      component: <Projects/>,
-    },
+    // {
+    //   title: 'Projects',
+    //   component: <Projects/>,
+    // },
     // {
     //   title: 'Skills',
     //   component: <></>,

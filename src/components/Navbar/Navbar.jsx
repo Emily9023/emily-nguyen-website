@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className='navbar-title'> EMILY NGUYEN </div>
         </div>
         <div className='navbar-right'>
-          navbar
+          {/* navbar */}
         </div>
       </div>
       

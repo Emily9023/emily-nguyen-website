@@ -1,34 +1,19 @@
 .main-image-container{
-  display: flex;
-  overflow: hidden;
-  width: 200px;
-  height: 300px;
+  // overflow: hidden;   
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .main-image{
-  position: absolute;
-  z-index: 10;
-  object-fit: contain;
+  // position: absolute;
+  // z-index: 10;
+  // object-fit: contain;
   width: 100%;
-}
-
-.main-image-left{
-  position: absolute;
-  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-}
-
-.main-image-right{
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  z-index: 10;
-  object-fit: contain;
-  overflow: hidden;
-}
-
-.main-image-left:hover{
-  animation: anim 2s;
 }
 
 @keyframes anim {

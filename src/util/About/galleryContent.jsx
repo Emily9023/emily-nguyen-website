@@ -16,27 +16,21 @@ import technical_presentation_tbog_2023 from "../../assets/About/technical_prese
 
 export const galleryContent = [
         {
-                src: tula,
-                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["Tula"] }></GalleryOverlay>,
-                caption: "Boats (Jeshu John - designerspics.com)",
-                height: tula.height,
-        },
-        {
                 src: fours_tournament_2023,
                 customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["fours_tournament_2023"] }></GalleryOverlay>,
                 caption: "Boats (Jeshu John - designerspics.com)",
                 height: fours_tournament_2023.height,
         },
         {
+                src: mudgirl_run_2022,
+                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["mudgirl_run_2022"] }></GalleryOverlay>,
+                caption: "Boats (Jeshu John - designerspics.com)",
+        },
+        {
                 src: frisbee_intrumural_champs_2022,
                 customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["frisbee_intrumural_champs_2022"] }></GalleryOverlay>,
                 caption: "Boats (Jeshu John - designerspics.com)",
                 height: 300,
-        },
-        {
-                src: mudgirl_run_2022,
-                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["mudgirl_run_2022"] }></GalleryOverlay>,
-                caption: "Boats (Jeshu John - designerspics.com)",
         },
         {
                 src: tbog_2022,
@@ -46,16 +40,6 @@ export const galleryContent = [
         {
                 src: tbog_2022_riding,
                 customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["tbog_2022_riding"] }></GalleryOverlay>,
-                caption: "Boats (Jeshu John - designerspics.com)",
-        },
-        {
-                src: tula_2022,
-                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["tula_2022"] }></GalleryOverlay>,
-                caption: "Boats (Jeshu John - designerspics.com)",
-        },
-        {
-                src: tula_champs_2021,
-                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["tula_champs_2021"] }></GalleryOverlay>,
                 caption: "Boats (Jeshu John - designerspics.com)",
         },
         {
@@ -74,13 +58,26 @@ export const galleryContent = [
                 caption: "Boats (Jeshu John - designerspics.com)",
         },
         {
-                src: bluesky_car_test_2022,
-                customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["bluesky_car_test_2022"] }></GalleryOverlay>,
-                caption: "Boats (Jeshu John - designerspics.com)",
-        },
-        {
                 src: technical_presentation_tbog_2023,
                 customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["technical_presentation_tbog_2023"] }></GalleryOverlay>,
                 caption: "Boats (Jeshu John - designerspics.com)",
         },
+        // {
+        //         src: tula,
+        //         customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["Tula"] }></GalleryOverlay>,
+        //         caption: "Boats (Jeshu John - designerspics.com)",
+        // },
+        // {
+        //         src: tula_2022,
+        //         customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["tula_2022"] }></GalleryOverlay>,
+        //         caption: "Boats (Jeshu John - designerspics.com)",
+        //         width: 300,
+        // },
+        // {
+        //         src: tula_champs_2021,
+        //         customOverlay: <GalleryOverlay galleryOverlayContent={ galleryOverlayContent["tula_champs_2021"] }></GalleryOverlay>,
+        //         caption: "Boats (Jeshu John - designerspics.com)",
+        //         width: 3,
+        //         height: tula_champs_2021.height
+        // },
 ]

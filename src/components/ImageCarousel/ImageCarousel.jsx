@@ -4,6 +4,7 @@ import './ImageCarousel.scss';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+
 const ImageCarousel = ({ items }) => {
   const [currentLabel, setCurrentLabel] = useState(0);
   const [currentLabelMobile, setCurrentLabelMobile] = useState(0);
@@ -61,7 +62,7 @@ const ImageCarousel = ({ items }) => {
           })}
         </Carousel>
       </div>
-      <div className="mobile-only">
+      {/* <div className="mobile-only">
         <Carousel
           showArrows={false}
           showStatus={false}
@@ -105,7 +106,7 @@ const ImageCarousel = ({ items }) => {
             );
           })}
         </Carousel>
-      </div>
+      </div> */}
     </div>
   );
 };

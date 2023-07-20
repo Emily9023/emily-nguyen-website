@@ -7,5 +7,9 @@
 }
 
 .gallery-overlay-content {
-  padding: 10px 5px 10px 5px;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  padding: 15px 10px;
+  font-size: 90%;
 }

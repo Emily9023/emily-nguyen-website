@@ -28,11 +28,11 @@ export const pages = {
       path: '/experience',
       includeFooter: true,
     },
-    {
-      label: 'Portfolio',
-      component: <Portfolio />,
-      path: '/portfolio',
-      includeFooter: true,
-    },
+    // {
+    //   label: 'Portfolio',
+    //   component: <Portfolio />,
+    //   path: '/portfolio',
+    //   includeFooter: true,
+    // },
   ],
 };

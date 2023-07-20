@@ -22,7 +22,14 @@ export const experienceContent = {
       altImage: "Stamped Incorporation",
       tools: "Ruby, Rails, PostgreSQL, RSpec, Google Analytics",
       description: 
-        <p></p>,
+        <p>
+        As a former Junior Software Developer, I gained valuable experience in software development and data analytics. 
+        During my internship, I specialized in designing and developing Ruby on Rails dashboards to process database 
+        information for clients. In my previous role, I initiated the implementation of a Google Analytics-based analytics 
+        system, which provided valuable insights into user behavior and app functionality. Additionally, I successfully 
+        integrated an AI model to automate account mapping, significantly reducing manual labor with high confidence 
+        levels. I was committed to delivering efficient solutions and making significant contributions to projects with 
+        my passion for software development and data-driven solutions.</p>,
       positions: [
         { title: "Junior Software Developer",
           startDate: "Aug. 2022",

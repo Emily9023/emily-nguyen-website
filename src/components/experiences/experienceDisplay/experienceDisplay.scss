@@ -3,9 +3,13 @@
 }
 
 .experience-display-container {
-  height: 300px;
+  height: 400px;
   width: 100%;
   padding: 20px 0px 20px 0px;
+
+  @media (max-width: 800px) {
+    height: auto;
+  }
 }
 
 .position-details-container {
@@ -23,9 +27,16 @@
 
 .extracurriculars-experience-image-container {
   width: 30%;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   display: inline-block;
+  
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    // float: none;
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Resize images */
@@ -33,6 +44,12 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    // float: none;
+    display: block;
+  }
 }
 
 .extracurriculars-experience-content {
@@ -41,6 +58,15 @@
   padding: 0% 5%;
   width: 60%;
   height: 100%;
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    // float: none;
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 0% 0%;
+    margin: 5% 0%;
+  }
 }
 
 .extracurriculars-experience-content p {
@@ -48,6 +74,12 @@
   display: inline-block;
   line-height: 1.6;
   margin: 10px 0px 10px 0px;
+  
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    // float: none;
+    display: block;
+  }
 }
 
 .extracurriculars-experience-content ul {

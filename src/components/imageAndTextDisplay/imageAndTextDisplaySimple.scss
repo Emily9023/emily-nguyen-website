@@ -1,0 +1,58 @@
+.image-and-text-display-simple-title {
+  margin: 10px 0px;
+  font-size: 200%;
+}
+
+.image-and-text-display-simple-container {
+  height: auto;
+  display: block;
+  // display: inline-block;
+
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    display: block;
+  }
+}
+
+.image-and-text-display-simple-image-container {
+  overflow: hidden;
+  margin: 0 20px 0 0;
+
+  @media (max-width: 800px) {
+    margin: 5% 0;
+  }
+}
+
+
+/* Resize images */
+.image-and-text-display-simple-image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-and-text-display-simple-content {
+  overflow-y: scroll;
+  width: auto;
+  
+  @media (max-width: 800px) {
+    overflow-y: hidden;
+  }
+}
+
+.left-element {
+  float: left;
+  
+  @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    float: none;
+  }
+}
+
+.image-and-text-display-simple-content p {
+  width: 100%;
+  // display: inline-block;
+  line-height: 1.6;
+  margin: 10px 0px 10px 0px;
+}
+

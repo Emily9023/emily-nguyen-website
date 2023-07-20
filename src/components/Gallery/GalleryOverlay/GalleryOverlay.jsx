@@ -19,3 +19,4 @@ GalleryOverlay.propTypes = {
 };
 
 export { GalleryOverlay }
+

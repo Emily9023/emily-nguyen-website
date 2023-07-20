@@ -1,14 +1,18 @@
 import React from 'react'
 
+import { ImageCarousel } from '../../components/ImageCarousel/ImageCarousel';
 import { MainImage } from '../../components/MainImage/MainImage';
-import { Gallery } from '../../components/Gallery/Gallery';
 import { homeGalleryContent } from '../../util/Home/galleryContent'
+import { homeImageCarouselContent } from '../../util/Home/imageCarouselContent'
+
+import { Gallery } from 'react-grid-gallery';
 
 const Home = () => {
   return (
     <div>
       <MainImage></MainImage>
-      <Gallery galleryContent={homeGalleryContent}/>
+      
+      <ImageCarousel items={homeImageCarouselContent}></ImageCarousel>
     </div>
   )
 }

@@ -21,19 +21,19 @@ const Experience = ({ dates, onClick }) => {
                 <div className="experience-display-container">
                   <div className='extracurriculars-experience-image-container'>
                     <img src={content.img} alt={content.altImage}></img>
-                  </div>
-                  <div className='extrcurriculars-experience-content'>
-                    <h2> {content.title} </h2>
-                    {content.description}
-                    {content.positions.map((position, index) => (
-                      <div>
-                        <h3> {position.title} </h3>
-                        {position.description.map((point, index) => (
-                          <li>{point}</li>
-                        ))}
-                      </div>
-                    ))}
+                    <div className='experience-container'>
+                      <h2> {content.title} </h2>
+                      {content.description}
+                      {content.positions.map((position, index) => (
+                        <div>
+                          <h3> {position.title} </h3>
+                          {position.description.map((point, index) => (
+                            <li>{point}</li>
+                          ))}
+                        </div>
+                      ))}
 
+                    </div>
                   </div>
                 </div>
               </div>
