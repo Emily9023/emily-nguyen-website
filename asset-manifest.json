@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/emily-nguyen-website/static/css/main.2e9f1296.css",
-    "main.js": "/emily-nguyen-website/static/js/main.29a84ba2.js",
-    "static/js/787.40505e3d.chunk.js": "/emily-nguyen-website/static/js/787.40505e3d.chunk.js",
+    "main.js": "/emily-nguyen-website/static/js/main.fe5df1ca.js",
     "static/media/tbog_2022.jpg": "/emily-nguyen-website/static/media/tbog_2022.807ea1a71785a021c9fc.jpg",
     "static/media/brake_work_tbog_2023.jpg": "/emily-nguyen-website/static/media/brake_work_tbog_2023.b8c2fbb30b42a30efbdf.jpg",
     "static/media/tbog_2023_team_photo.jpg": "/emily-nguyen-website/static/media/tbog_2023_team_photo.73b924c21feb872612af.jpg",
@@ -34,11 +33,10 @@
     "static/media/arrow-right-solid.svg": "/emily-nguyen-website/static/media/arrow-right-solid.a0f5cfdb50eb90459702f862905b106e.svg",
     "static/media/magnifying-glass.svg": "/emily-nguyen-website/static/media/magnifying-glass.ecdf8ec7c4f054fbcbfe4af53be7c8a2.svg",
     "main.2e9f1296.css.map": "/emily-nguyen-website/static/css/main.2e9f1296.css.map",
-    "main.29a84ba2.js.map": "/emily-nguyen-website/static/js/main.29a84ba2.js.map",
-    "787.40505e3d.chunk.js.map": "/emily-nguyen-website/static/js/787.40505e3d.chunk.js.map"
+    "main.fe5df1ca.js.map": "/emily-nguyen-website/static/js/main.fe5df1ca.js.map"
   },
   "entrypoints": [
     "static/css/main.2e9f1296.css",
-    "static/js/main.29a84ba2.js"
+    "static/js/main.fe5df1ca.js"
   ]
 }
