@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState } from 'react';
 
 import PropTypes from 'prop-types';
 import './experienceDisplay.scss';
 
 // import { Experience } from '../experience';
-import { PopupModal } from '../../popup/PopupModal.jsx';
+// import { PopupModal } from '../../popup/PopupModal.jsx';
 
 
 const ExperienceDisplay = ({ positions }) => {
-  const [showPopUp, setShowPopUp] = useState(false);
-  const [selectedExperience, setSelectedExperience] = useState({});
+  // const [showPopUp, setShowPopUp] = useState(false);
+  // const [selectedExperience, setSelectedExperience] = useState({});
 
   return (
     !(positions === undefined || positions?.length === 0) && (
@@ -33,8 +33,8 @@ const ExperienceDisplay = ({ positions }) => {
                   (content.description ? ' position-container-clickable' : '')
                 }
                 onClick={(content) => {
-                  setShowPopUp(true);
-                  setSelectedExperience(content);
+                  // setShowPopUp(true);
+                  // setSelectedExperience(content);
                 }}
               >
                 <div className='extracurriculars-experience-image-container'>

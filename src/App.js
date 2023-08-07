@@ -9,28 +9,28 @@ function App() {
   switch(path) {
     case "/":
       pages.navbar.forEach(page => {
-        if (page.path == path) {
+        if (page.path === path) {
           component = page.component
         }
       });
       break;
     case "/about":
       pages.navbar.forEach(page => {
-        if (page.path == path) {
+        if (page.path === path) {
           component = page.component
         }
       });
     break;
     case "/experience":
       pages.navbar.forEach(page => {
-        if (page.path == path) {
+        if (page.path === path) {
           component = page.component
         }
       });
     break;
     case "/portfolio":
       pages.navbar.forEach(page => {
-        if (page.path == path) {
+        if (page.path === path) {
           component = page.component
         }
       });

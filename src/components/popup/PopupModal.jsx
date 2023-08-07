@@ -13,17 +13,17 @@ const PopupModal = ({
   blurBackground,
   style,
 }) => {
-  const [hasBeenOpened, setHasBeenOpened] = useState(false);
+  // const [hasBeenOpened, setHasBeenOpened] = useState(false);
 
-  useEffect(() => {
-    if (hasBeenOpened === false && trigger === true) {
-      setHasBeenOpened(true);
-    }
-  }, [trigger]);
+  // useEffect(() => {
+  //   if (hasBeenOpened === false && trigger === true) {
+  //     setHasBeenOpened(true);
+  //   }
+  // }, [trigger]);
 
-  if (hasBeenOpened === false && trigger === false) {
-    return <div></div>;
-  }
+  // if (hasBeenOpened === false && trigger === false) {
+  //   return <div></div>;
+  // }
 
   return (
     <div className="popup-modal" style={style}>

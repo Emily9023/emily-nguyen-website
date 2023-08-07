@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, createRef } from 'react';
+import React, { useState} from 'react';
 import PropTypes from 'prop-types';
 import './ImageCarousel.scss';
 import { Carousel } from 'react-responsive-carousel';
@@ -7,7 +7,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ImageCarousel = ({ items }) => {
   const [currentLabel, setCurrentLabel] = useState(0);
-  const [currentLabelMobile, setCurrentLabelMobile] = useState(0);
+  // const [currentLabelMobile, setCurrentLabelMobile] = useState(0);
 
   return (
     <div>
@@ -55,7 +55,7 @@ const ImageCarousel = ({ items }) => {
                     textAlign: 'center',
                   }}
                 >
-                  {currentLabel == index ? item.label : ''}
+                  {currentLabel === index ? item.label : ''}
                 </p>
               </div>
             );

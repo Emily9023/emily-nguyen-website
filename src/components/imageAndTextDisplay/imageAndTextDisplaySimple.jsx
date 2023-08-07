@@ -4,14 +4,13 @@ import './imageAndTextDisplaySimple.scss';
 
 
 const ImageAndTextDisplaySimple = ({ title, text, imageDisplaySide, img, id, style, class_options, container_height }) => {
-  const custom_style = { ...style, ...class_options }
   if (imageDisplaySide === 'left'){
     return (
       <div className='image-and-text-display-simple-container' id={id}>
         {/* <a id="target"></a> */}
         <h2 className='image-and-text-display-simple-title'>{title}</h2>
         <div className='image-and-text-display-simple-image-container left-element' style={container_height}>
-          <img src={img}></img>
+          <img src={img} alt="Visual of activity"></img>
         </div>
         <div className='image-and-text-display-simple-content' style={container_height}>
           {text.map((paragraph) => {
@@ -38,7 +37,7 @@ const ImageAndTextDisplaySimple = ({ title, text, imageDisplaySide, img, id, sty
           })}
         </div>
         <div className='image-and-text-display-simple-image-container' style={container_height}>
-          <img src={img}></img>
+          <img src={img} alt="Visual of activity"></img>
         </div>
       </div>
     )

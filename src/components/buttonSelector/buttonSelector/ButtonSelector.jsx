@@ -31,7 +31,7 @@ const ButtonSelector = ({
         ...style,
       }}
       className={classNameButton}
-      isSecondary={index == activeIndex ? false : true}
+      isSecondary={index === activeIndex ? false : true}
     ></ButtonOutlined>
   ));
 
