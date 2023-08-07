@@ -2,10 +2,10 @@ import React from 'react'
 
 import { ImageCarousel } from '../../components/ImageCarousel/ImageCarousel';
 import { MainImage } from '../../components/MainImage/MainImage';
-import { homeGalleryContent } from '../../util/Home/galleryContent'
+// import { homeGalleryContent } from '../../util/Home/galleryContent'
 import { homeImageCarouselContent } from '../../util/Home/imageCarouselContent'
 
-import { Gallery } from 'react-grid-gallery';
+// import { Gallery } from 'react-grid-gallery';
 
 const Home = () => {
   return (

@@ -2,7 +2,7 @@ import { React } from 'react';
 import { Tabs } from '../../components/Tabs/tabs';
 import { Professional } from './Professional';
 import { Extraccuriculars } from './Extraccuriculars';
-import { Projects } from './Projects';
+// import { Projects } from './Projects';
 import './Experience.scss';
 
 const Experience = () => {

@@ -2,7 +2,7 @@ import { Page404 } from '../pages/404/404';
 import { Home } from '../pages/Home/Home';
 import { About } from '../pages/About/About.jsx';
 import { Experience } from '../pages/Experience/Experience.jsx';
-import { Portfolio } from '../pages/Portfolio/Portfolio.jsx';
+// import { Portfolio } from '../pages/Portfolio/Portfolio.jsx';
 
 export const pages = {
   page404: {
