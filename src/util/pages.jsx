@@ -19,7 +19,7 @@ export const pages = {
     {
       label: 'About',
       component: <About />,
-      path: '/about',
+      path: '/about.html',
       includeFooter: true,
     },
     {

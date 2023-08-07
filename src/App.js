@@ -14,7 +14,7 @@ function App() {
         }
       });
       break;
-    case "/about":
+    case "/about.html":
       pages.navbar.forEach(page => {
         if (page.path === path) {
           component = page.component
