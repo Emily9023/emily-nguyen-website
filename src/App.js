@@ -2,52 +2,25 @@ import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
 
 import { pages } from './util/pages';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Home } from './pages/Home/Home';
+import { About } from './pages/About/About.jsx';
+import { Experience } from './pages/Experience/Experience.jsx';
 
-function App() {
-  let component 
-  const path = window.location.pathname
-  switch(path) {
-    case "/":
-      pages.navbar.forEach(page => {
-        if (page.path === path) {
-          component = page.component
-        }
-      });
-      break;
-    case "/about.html":
-      pages.navbar.forEach(page => {
-        if (page.path === path) {
-          component = page.component
-        }
-      });
-    break;
-    case "/experience":
-      pages.navbar.forEach(page => {
-        if (page.path === path) {
-          component = page.component
-        }
-      });
-    break;
-    case "/portfolio":
-      pages.navbar.forEach(page => {
-        if (page.path === path) {
-          component = page.component
-        }
-      });
-    break;
-    default:
-      component = pages.page404.component
-      break;
-  }
+const App = () => {
+
   return (
-    <>
-      <Navbar/>
-      <div className='App-container-main'>
-        {component}
-      </div>
-    </>
+      <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="*" element={pages.page404.component} />
+        </Routes>
+      </BrowserRouter>
   );
-}
+};
 
 const documentHeight = () => {
   const doc = document.documentElement
