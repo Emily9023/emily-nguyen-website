@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <MainImage></MainImage>
       
-      <ImageCarousel items={homeImageCarouselContent}></ImageCarousel>
+      {/* <ImageCarousel items={homeImageCarouselContent}></ImageCarousel> */}
     </div>
   )
 }
