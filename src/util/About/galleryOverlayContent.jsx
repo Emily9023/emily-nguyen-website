@@ -3,33 +3,33 @@ export const galleryOverlayContent =
 {
         "Tula":
                 {
-                        title: "University of Toronto - Varsity Ultimate Frisbee Player 2021s",
+                        title: "University of Toronto - Varsity Ultimate Frisbee Player 2021",
                         description: "Won the tournamen ___ giving us a bid to nationals happening later that month!"
                 },                
         "fours_tournament_2023":
                 {
                         title: "University of Toronto - Varsity Ultimate 4s Tournament",
-                        description: "University of Toronto Varsity Ultimate Frisbee Team took part in a very fun weekend of playing a four player frisbee tournmanet in Brampton."
+                        description: "The University of Toronto Varsity Ultimate Frisbee Team enthusiastically participated in an engaging weekend of competitive four-player frisbee action at a tournament held in Brampton."
                 },
         "frisbee_intrumural_champs_2022":
                 {
                         title: "University of Toronto Ultimate Frisbee Intramurals Div 3",
-                        description: "Won the Ultimate Frisbee Intramurals Div 3 league."
+                        description: "Achieved victory by clinching first place in Division 3 frisbee intramurals, showcasing exceptional teamwork, strategic gameplay, and sportsmanship. Demonstrated agility, precision, and effective communication, contributing to a memorable triumph in the spirited competition."
                 },
         "mudgirl_run_2022":
                 {
                         title: "Volunteering Mudgirl Run 2022",
-                        description: "Volunteered for Mud Girl Run, a thrilling and adventurous obstacle course event aimed at empowering women. Actively participated in supporting the event's success by assisting with various tasks, such as registration, participant check-in, and distributing event materials. Collaborated with a diverse team to ensure a smooth and enjoyable experience for participants, providing guidance and encouragement throughout the race. Demonstrated excellent communication and problem-solving skills, effectively addressing participant inquiries and resolving any issues that arose. Contributed to fostering a positive and inclusive atmosphere, fostering a sense of camaraderie among participants. Volunteering for Mud Girl Run allowed me to enhance my organizational abilities, teamwork, and customer service skills while supporting a meaningful cause. "
+                        description: "Volunteered at Mud Girl Run, aiding in event tasks like registration, check-in, and participant support. Collaborated with a diverse team, excelling in communication and problem-solving. Fostered camaraderie among participants, enhancing organizational and customer service skills while empowering women. "
                 },
         "tbog_2022":
                 {
                         title: "Concrete Toboggan 2022",
-                        description: "Technical Exhibition Day where we showed off our toboggan and theme to the rest of the University of Toronto."
+                        description: "During the Technical Exhibition Day, we warmly welcomed guests and engaged in providing comprehensive explanations for their inquiries about our toboggan and theme to the University of Toronto community."
                 },
         "tbog_2022_riding":
                 {
                         title: "University of Toronto - Concrete Toboggan Design Team Race Day",
-                        description: "Day 5 of the Great Northern Concrete Toboggan Race (GNCTR). Activated braking during the runs. Won 2nd overall in toboggan design and 1st in fastest toboggan"
+                        description: "During Day 5 of the Great Northern Concrete Toboggan Race (GNCTR), skillfully executed braking techniques during the runs. Achieved a notable 2nd place for overall toboggan design and a remarkable 1st place in the fastest toboggan category."
                 },
         "tula_2022":
                 {
@@ -39,7 +39,7 @@ export const galleryOverlayContent =
         "tula_champs_2021":
                 {
                         title: "University of Toronto - Varsity Ultimate Frisbee Player 2021",
-                        description: "Played as a key member of the varsity girls' frisbee team that achieved tremendous success by winning the national championship. Demonstrated exceptional skill, dedication, and teamwork throughout the season, contributing to the team's remarkable achievement. Collaborated closely with teammates, coaches, and staff to develop and execute effective game strategies, resulting in consistent victories against formidable opponents. Showcased strong leadership qualities both on and off the field, motivating and inspiring fellow teammates to perform at their best. The experience of playing on the varsity girls' frisbee team that secured a national title enhanced my sportsmanship, resilience, and ability to thrive in high-pressure situations."
+                        description: "Key player on varsity girls' frisbee team, clinching national championship. Showcased exceptional skill, teamwork, and leadership on and off the field. Collaborated with coaches, teammates, and staff to devise winning strategies against tough rivals. This experience honed sportsmanship, resilience, and performance under pressure."
                 },
         "womens_intramurals_champs_2023":
                 {
@@ -54,11 +54,11 @@ export const galleryOverlayContent =
         "bluesky_car_running_2022":
                 {
                         title: "University of Toronto -Blue Sky Solar Racing Test Day",
-                        description: "Served as the Braking Lead on a dynamic design team that achieved the remarkable feat of creating a functional solar car. Led the braking system design and development process, ensuring the car's safe and efficient braking performance. Collaborated closely with team members to analyze and evaluate braking requirements, select appropriate components, and integrate them seamlessly into the vehicle's overall design. Demonstrated strong technical expertise in designing braking systems, including hydraulic or regenerative braking mechanisms, and effectively coordinated with other subsystem leads for seamless integration. Contributed to rigorous testing and validation procedures to guarantee optimal functionality and adherence to safety standards. The experience of leading the braking system design on a successful solar car project strengthened my leadership abilities, technical knowledge, and attention to detail in complex engineering projects."
+                        description: "Led braking system design on a dynamic team creating a functional solar car. Collaborated on component selection, seamless integration, and testing. Strengthened leadership, technical skills, and attention to detail through successful project execution."
                 },
         "technical_presentation_tbog_2023":
                 {
                         title: "University of Toronto - Concrete Toboggan",
-                        description: "Led the Braking Team on a distinguished design project and delivered a compelling technical presentation that earned 1st place recognition. Demonstrated exceptional leadership skills by guiding the team in designing and developing an innovative braking system for the project. Prepared and delivered a comprehensive tech presentation, effectively communicating the technical details, design considerations, and performance advantages of the braking system to a panel of judges. Showcased strong public speaking abilities and persuasive communication to engage the audience and convey the project's value proposition. The presentation's recognition as the 1st place winner underscored the team's expertise, problem-solving capabilities, and the effectiveness of the braking system design. This experience further honed my leadership, communication, and presentation skills, positioning me as a capable and accomplished professional in the field."
+                        description: "Led the Braking Team to a 1st place win with an innovative system design and persuasive tech presentation. Showcased leadership, effective communication, and problem-solving skills in guiding the team's success. Strengthened public speaking abilities, enhancing expertise and professional growth."
                 },
 }

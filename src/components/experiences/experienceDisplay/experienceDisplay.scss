@@ -1,11 +1,8 @@
-.experience-display-container {
-  width: 100%;
-}
 
 .experience-display-container {
-  height: 400px;
+  height: 450px;
   width: 100%;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 50px 0px;
 
   @media (max-width: 800px) {
     height: auto;
@@ -27,7 +24,7 @@
 
 .extracurriculars-experience-image-container {
   width: 30%;
-  height: 400px;
+  height: 450px;
   overflow: hidden;
   display: inline-block;
   
